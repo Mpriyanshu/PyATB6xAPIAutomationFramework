@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e7543d8-c246-4e1b-8041-5a2530a45a59" name="Changes" comment="First commit , Added the README.md file">
-      <change beforePath="$PROJECT_DIR$/READEME.md" beforeDir="false" afterPath="$PROJECT_DIR$/READEME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/endpoints/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/endpoints/api_constansts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/payload_manager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/payload_manager/payload_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/verfication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/verfication/common_verification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/wrapper/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/wrapper/api_requests_wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/crud/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/e2e/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/sample/test_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +66,12 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Abc\PycharmProjects\PyATB6xAPIAutomationFramework\src\modules" />
+      <recent name="C:\Users\Abc\PycharmProjects\PyATB6xAPIAutomationFramework\src\wrapper" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,7 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766745629970</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit , Added the README.md file">
+      <option name="closed" value="true" />
+      <created>1766746994831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766746994831</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First commit , Added the README.md file">
+      <option name="closed" value="true" />
+      <created>1766747002315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766747002315</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
