@@ -41,7 +41,6 @@ class TestCRUDBooking(object):
         verify_response_key(response.json()["firstname"], expected_data="Amit")
         verify_response_key(response.json()["lastname"], expected_data="Brown")
 
-
     def test_delete_booking_id(self, create_token, get_booking_id):
         delete_url = APIConstants().url_patch_put_delete(booking_id=get_booking_id)
         response = delete_requests(
@@ -52,3 +51,4 @@ class TestCRUDBooking(object):
         )
         verify_response_delete(response=response.text)
         verify_http_status_code(response_data_status=response.status_code, expected_data=201)
+

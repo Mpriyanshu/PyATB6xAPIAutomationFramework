@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6e7543d8-c246-4e1b-8041-5a2530a45a59" name="Changes" comment="20 dec code e2e">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/endpoints/api_constansts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/endpoints/api_constansts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tests/e2e/test_crud_full_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/e2e/test_crud_full_e2e.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,19 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for src.tests.crud.test_create_booking.TestCreateBooking.test_create_booking_positive.executor": "Run",
-    "Python tests.Python tests for src.tests.crud.test_get_booking.TestGETBooking.test_verify_existing_booking_bid_01.executor": "Run",
-    "Python tests.Python tests for src.tests.e2e.test_crud_full_e2e.TestCRUDBooking.test_update_booking_id_token.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for src.tests.crud.test_create_booking.TestCreateBooking.test_create_booking_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for src.tests.crud.test_get_booking.TestGETBooking.test_verify_existing_booking_bid_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for src.tests.e2e.test_crud_full_e2e.TestCRUDBooking.test_delete_booking_id.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for src.tests.e2e.test_crud_full_e2e.TestCRUDBooking.test_update_booking_id_token.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Abc\PycharmProjects\PyATB6xAPIAutomationFramework\src\endpoints" />
@@ -102,6 +101,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for src.tests.e2e.test_crud_full_e2e.TestCRUDBooking.test_delete_booking_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PyATB6xAPIAutomationFramework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.tests.e2e.test_crud_full_e2e.TestCRUDBooking.test_delete_booking_id&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for src.tests.e2e.test_crud_full_e2e.TestCRUDBooking.test_update_booking_id_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PyATB6xAPIAutomationFramework" />
       <option name="ENV_FILES" value="" />
@@ -120,6 +134,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for src.tests.e2e.test_crud_full_e2e.TestCRUDBooking.test_update_booking_id_token" />
+        <item itemvalue="Python tests.Python tests for src.tests.e2e.test_crud_full_e2e.TestCRUDBooking.test_delete_booking_id" />
         <item itemvalue="Python tests.Python tests for src.tests.crud.test_get_booking.TestGETBooking.test_verify_existing_booking_bid_01" />
         <item itemvalue="Python tests.Python tests for src.tests.crud.test_create_booking.TestCreateBooking.test_create_booking_positive" />
       </list>
@@ -188,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767588161513</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="20 dec code e2e">
+      <option name="closed" value="true" />
+      <created>1767591303961</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767591303961</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
