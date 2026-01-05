@@ -6,7 +6,7 @@ from src.endpoints.api_constansts import APIConstants
 from src.utils.utils import Utils
 from src.modules.payload_manager.payload_manager import payload_update_booking
 from src.modules.verfication.common_verification import *
-import logging
+
 
 
 # FLOW of the E2E
@@ -28,7 +28,6 @@ class TestCRUDBooking(object):
         put_url = APIConstants().url_patch_put_delete(booking_id=get_booking_id)
         print(put_url)
         print(create_token)
-
         response = put_requests(
             url=put_url,
             headers=Utils().common_header_put_delete_patch_cookie(token=create_token),
@@ -37,7 +36,6 @@ class TestCRUDBooking(object):
             in_json=False
 
         )
-
         # Verify
         verify_http_status_code(response_data_status=response.status_code, expected_data=200)
         verify_response_key(response.json()["firstname"], expected_data="Amit")

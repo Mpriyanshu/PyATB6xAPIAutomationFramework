@@ -1,6 +1,5 @@
 import allure
 import pytest
-
 from src.modules.wrapper.api_requests_wrapper import post_request
 from src.endpoints.api_constansts import APIConstants
 from src.utils.utils import Utils
@@ -10,11 +9,13 @@ import logging
 
 @pytest.fixture
 def setup():
-    print("Setp is started!")
+    print("Step is started!")
     yield
-    print("End The Testcases")
+    print("End the Testcases")
 
-#All the common codes which i want to execute here
+
+# All the common codes which I want to execute here.
+
 
 @pytest.fixture
 def db_connection():
@@ -23,15 +24,17 @@ def db_connection():
     print("Disconnect DB")
 
 
-
-#@pytest.fixture
+# @pytest.fixture
 # def browser():
-    #driver = launch_browser()
-    #yield driver
-    #driver.quit()
+#     driver = launch_browser()
+#     yield driver
+#     driver.quit()
 
-#Create_token()
-#  Booking_id()
+
+
+#create_token()
+# booking_id()
+
 
 @pytest.fixture(scope="session")
 def create_token():
@@ -54,8 +57,9 @@ def get_booking_id():
         headers=Utils().common_headers_json(),
         payload=payload_create_booking(),
         in_json=False
+
     )
     booking_id = response.json()["bookingid"]
-    verify_http_status_code(response_data_status=response.status_code, expected_data=200)
+    verify_http_status_code(response_data_status=response.status_code,expected_data=200)
     verify_json_key_for_not_null(booking_id)
     return booking_id
